@@ -1,7 +1,9 @@
 # L-Train_Project
 
 ![alt tag]([https://github.com/fernandomelchor/L-Train_Project/tree/master/Data/MapLTRAIN.png)
+L-Train_Project/Data/MapLTRAIN.png
 
+![Alt tag](https://github.com/fernandomelchor/L-Train_Project/blob/master/Data/MapLTRAIN.png "Optional title")
 
 Analysis of the potential impacts of the closure of New York City’s L Train. We identify the affected areas and characterize them using socio-economic indicators. We then quantify the impacts on commuters in terms in terms of likely travel time increases, and investigate whether certain communities will be disproportionally affected by the closure.
 
@@ -15,6 +17,7 @@ positioned at or near L-train stops and overall economic development in neighbou
 Increased bus service, using a combination of new routing and additional vehicles, will be needed to compensate for the L-train closure, particularly in less transit-dense areas of Brooklyn.
 
 ### Project Flow Diagrams
+![Alt text](/Data/Diagram1.png?raw=true "Optional Title")
 ![alt tag]([https://github.com/fernandomelchor/L-Train_Project/tree/master/Data/Diagram1.png)
 ![alt tag]([https://github.com/fernandomelchor/L-Train_Project/tree/master/Data/Diagram2.png)
 ![alt tag]([https://github.com/fernandomelchor/L-Train_Project/tree/master/Data/Diagram3.png)
