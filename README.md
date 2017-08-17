@@ -1,8 +1,13 @@
-# L-Train Closure Impacts
+# Assessing impacts of the upcoming L-train closure
 
 ![Alt tag](/Data/MapLTRAIN.png "Optional title")
 
-Analysis of the potential impacts of the closure of New York City’s L Train. We identify the affected areas and characterize them using socio-economic indicators. We then quantify the impacts on commuters in terms in terms of likely travel time increases, and investigate whether certain communities will be disproportionally affected by the closure.
+An analysis of the relative impacts for Brooklyn-Manhattan commuters along the section of the L-train scheduled to close for repairs beginning in January, 2019. We use walking distance isochrones from subway stations to identify potentially affected areas, and calculate an approximate average travel time increase for commuters by census tract.
+
+Project outline:
+1. Use ![Mapzen isochrone service](https://mapzen.com/documentation/mobility/isochrone/api-reference/) to identify census tracts with centroids with 15 minute walking distance of L-train stations that will be closed.
+2. Collect ![LEHD Origin-Destination Employment Statistics data](https://lehd.ces.census.gov/data/lodes/) for the census tracts in the affected area, which provides workplace destination census blocks/tracts for commuters in each origin census block.
+3. Use Mapzen Turn-by-Turn API to iteratively calculate travel time differences, for travel with and without the L (see ![transit costing options](https://mapzen.com/documentation/mobility/turn-by-turn/api-reference/#transit-costing-options), from each origin tract to each destination listed for that tract in LODES. 
 
 #####Keywords—L Train; MTA; public transportation; social impact
 
