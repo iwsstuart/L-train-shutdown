@@ -2,6 +2,10 @@
 
 An analysis of the relative impacts for Brooklyn-Manhattan commuters along the section of the L-train scheduled to close for repairs beginning in January, 2019. We use walking distance isochrones from subway stations to identify potentially affected areas, and calculate an approximate average travel time increase for commuters by census tract.
 
+![Alt text](/Data/percentchange_tight.png)
+
+The primary processing and analysis steps are in `main.ipynb`
+
 ### Project Outline 
 1. Use ![Mapzen isochrone service](https://mapzen.com/documentation/mobility/isochrone/api-reference/) to identify census tracts with centroids with 15 minute walking distance of L-train stations that will be closed.
 2. Collect ![LEHD Origin-Destination Employment Statistics data](https://lehd.ces.census.gov/data/lodes/) for the census tracts in the affected area, which provides workplace destination census blocks/tracts for commuters in each origin census block.
